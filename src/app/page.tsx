@@ -21,7 +21,7 @@ const centers = [
             '- Развитие фонематического слуха и грамматического строя речи;\n' +
             '- Коррекция письменной речи.\n' +
             '\n' +
-            '<a href="https://vk.link/club154225455">https://vk.link/club154225455</a>',
+            '<a href="https://vk.link/club154225455">ссылка</a>',
         score: 5,
         reviews: [
             {
@@ -57,7 +57,7 @@ const centers = [
             '- Программы, учитывающие эмоциональные и социальные аспекты развития ребенка.\n' +
             '- Услуги сопровождения для детей с особыми образовательными потребностями\n' +
             '\n' +
-            '<a href="https://genesis-family72.ru/">https://genesis-family72.ru/</a>',
+            '<a href="https://genesis-family72.ru/">ссылка</a>',
         score: 4.9,
         reviews: [
             {
@@ -94,7 +94,7 @@ const centers = [
             '- Упор на раннее развитие и подготовку к школе.\n' +
             '- Сочетание логопедической работы с игровыми методами и занятиями по творческому развитию.\n' +
             '\n' +
-            '<a href="https://www.intellect72.ru/">https://www.intellect72.ru/</a>',
+            '<a href="https://www.intellect72.ru/">ссылка</a>',
         score: 5,
         reviews: [
             {
@@ -133,7 +133,7 @@ const centers = [
             '\n' +
             '\n' +
             '\n' +
-            '<a href="https://72centerlogos.wixsite.com/72centerlogos">https://72centerlogos.wixsite.com/72centerlogos</a>',
+            '<a href="https://72centerlogos.wixsite.com/72centerlogos">ссылка</a>',
         score: 4.7,
         reviews: [
             {
@@ -170,7 +170,7 @@ const centers = [
             '- Авторские методики, сочетающие логопедический массаж и дыхательные упражнения.\n' +
             '- Работа с тяжелыми случаями, включая алалию и дислексию.\n' +
             '\n' +
-            '<a href="http://logopedtmn72.ru/">http://logopedtmn72.ru/</a>',
+            '<a href="http://logopedtmn72.ru/">ссылка</a>',
         score: 3.6,
         reviews: [
             {
