@@ -12,7 +12,7 @@ function Info({center, color, id}) {
                 </div>
                 <div className="description">
                     <div className="descriptionHeader">
-                        Информация
+                        {center.name}
                     </div>
                     <div className="descriptionText">
                         <pre dangerouslySetInnerHTML={{__html: center.infoDescription}}></pre>

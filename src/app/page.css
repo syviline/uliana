@@ -4,6 +4,8 @@
 
 body {
     overflow: hidden;
+    background-color: #FFF;
+    color: #000;
 }
 
 header {
@@ -184,9 +186,8 @@ header a {
     padding: 10px;
 }
 
-.center:nth-of-type(2) {
+.center:nth-of-type(5) {
     background-color: #ACC5FE;
-    margin-top: 40px;
 }
 
 .center:nth-of-type(3) {
@@ -198,8 +199,9 @@ header a {
     background-color: #80D7C4;
 }
 
-.center:nth-of-type(5) {
+.center:nth-of-type(2) {
     background-color: #F6E148;
+    margin-top: 40px;
 }
 
 .center:nth-of-type(6) {
@@ -278,6 +280,7 @@ header a {
     margin: 20px;
     background-color: #FFF;
     border-radius: 20px;
+    max-width: 500px;
 }
 
 .descriptionHeader {
@@ -294,7 +297,7 @@ header a {
 pre {
     padding: 10px;
     font-family: sans-serif;
-    text-wrap: auto;
+    white-space: pre-line;
 }
 
 pre a {
@@ -384,14 +387,19 @@ pre a {
 }
 
 .contact {
+    height: 80%;
+}
+
+.contact a {
     display: flex;
     flex-direction: column;
-    height: 60%;
+    height: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 .contact img {
-    height: 80%;
+    height: 50%;
     align-self: center;
     margin-bottom: 20px;
     border-radius: 200px;
