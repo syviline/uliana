@@ -2,10 +2,10 @@
 import React from 'react';
 import './page.css'
 
-function Info({center, color}) {
+function Info({center, color, id}) {
     console.log(center)
     return (
-        <div className={"info " + color}>
+        <div className={"info " + color} id={id}>
             <div className="upper">
                 <div className="upperImgContainer">
                     <img src={center.photo2} alt=""/>

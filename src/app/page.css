@@ -3,6 +3,8 @@ body {
 }
 
 header {
+    position: fixed;
+    z-index: 1000;
     display: flex;
     justify-content: space-evenly;
     gap: 80px;
@@ -28,7 +30,7 @@ header a {
 
 .imgContainer img {
     position: relative;
-    top: -100px;
+    top: -50px;
     width: 100%;
 }
 
@@ -73,12 +75,15 @@ header a {
 }
 
 .center {
-    display: flex;
     margin: 20px;
     padding: 10px;
     border-radius: 20px;
     align-items: center;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.center a {
+    display: flex;
 }
 
 .centerInfo {

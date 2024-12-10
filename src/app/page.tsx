@@ -203,15 +203,15 @@ export default function Home() {
     return (
         <div className={styles.page}>
             <header>
-                <a>Начало</a>
-                <a>Центры</a>
-                <a>Карта</a>
-                <a>Контакты</a>
+                <a href="#start">Начало</a>
+                <a href="#centers">Центры</a>
+                <a href="#map">Карта</a>
+                <a href="#contact">Контакты</a>
             </header>
-            <div className="imgContainer">
+            <div className="imgContainer" id="start">
                 <img src="/Group%2036.png" alt=""/>
             </div>
-            <div className="grid">
+            <div className="grid" id="centers">
                 <img src="/Ellipse%2010.png" alt="" className="img1"/>
                 <img src="/Ellipse%209.png" alt="" className="img2"/>
                 <div className="label">
@@ -219,23 +219,25 @@ export default function Home() {
                 </div>
                 {centers.map((center, index) => (
                     <div className="center" key={index} onClick={() => setCurrentCenterId(index)}>
-                        <img src={center.photo} alt=""/>
-                        <div className="centerInfo">
-                            <h3>{center.name}</h3>
-                            <p>{center.description}</p>
-                        </div>
+                        <a href={"#c" + (index + 1)}>
+                            <img src={center.photo} alt=""/>
+                            <div className="centerInfo">
+                                <h3>{center.name}</h3>
+                                <p>{center.description}</p>
+                            </div>
+                        </a>
                     </div>
                 ))}
             </div>
-            <Info center={centers[3]} color={styles.color1}/>
-            <Info center={centers[2]} color={styles.color2}/>
-            <Info center={centers[1]} color={styles.color3}/>
-            <Info center={centers[0]} color={styles.color4}/>
-            <Info center={centers[4]} color={styles.color5}/>
+            <Info center={centers[3]} color={styles.color1} id="c1"/>
+            <Info center={centers[2]} color={styles.color2} id="c2"/>
+            <Info center={centers[1]} color={styles.color3} id="c3"/>
+            <Info center={centers[0]} color={styles.color4} id="c4"/>
+            <Info center={centers[4]} color={styles.color5} id="c5"/>
             <img src="/Group%2064.png" alt="" className="mapLabel"/>
             <iframe
                 src="https://yandex.ru/map-widget/v1/?um=constructor%3A7b00630d1cc22597f7b5247604e2caca33ebc7fb791aad58b6f7969164a17d73&amp;source=constructor"
-                width="100%" height="400" frameBorder="0"></iframe>
+                width="100%" height="400" frameBorder="0" id="map"></iframe>
             <div className="contactsContainer">
                 <img src="/Group%2065.png" alt="" className="contactsLabel"/>
                 <div className="contacts">
@@ -243,7 +245,7 @@ export default function Home() {
                         <img src="/tg.png" alt=""/>
                         @azbukalogopedii
                     </div>
-                    <div className="contact">
+                    <div className="contact" id="contact">
                         <img src="/vk.png" alt=""/>
                         https://vk.com/logoped_utmn
                     </div>
