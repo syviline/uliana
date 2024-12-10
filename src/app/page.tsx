@@ -19,7 +19,7 @@ const centers = [
             '\n' +
             '\n' +
             '\n' +
-            '<a href="https://72centerlogos.wixsite.com/72centerlogos">https://72centerlogos.wixsite.com/72centerlogos</a>',
+            '<a href="https://72centerlogos.wixsite.com/72centerlogos">ссылка</a>',
         score: 4.7,
         reviews: [
             {
